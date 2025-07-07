@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Live Weather Extension",
+  "version": "1.0",
+  "description": "Shows current weather from your location.",
+  "permissions": ["geolocation", "storage"],
+  "host_permissions": ["https://api.openweathermap.org/"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  }
+}
